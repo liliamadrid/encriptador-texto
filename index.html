@@ -4,8 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <header>
+        <img src="assets/svg/logoA.svg" alt="">
+    </header>
+    <main>
+        <form class="form" action="">
+            <textarea class="form__textarea" id="" placeholder="Ingrese el texto aquí"></textarea>
+            <div class="form__container">
+                <div class="form__container__alert">
+                    <img src="./assets/svg/alert.svg" alt=""><span>Solo letras minúsculas y sin acentos</span>
+                </div>
+                <div class="form__container__btns">
+                    <input class="form__container__btns__btn"type="submit" value="Encriptar">
+                    <input class="form__container__btns__btn form__container__btns__btn--secondary"type="submit" value="Desencriptar">
+                </div>
+            </div>    
+        </form>
+        <aside class="return">
+            <img class="return__img" src="assets/svg/muneco.svg" alt="">
+            <div class="return__msn">
+                <h3 class="return__msn__title">Ningún mensaje fue encontrado</h3>
+                <p class="return__msn__text">Ingresa el texto que desees encriptar o desencriptar.</p>
+            </div>
+        </aside>
+    </main>
 </body>
 </html>
