@@ -22,17 +22,20 @@
                 </div>
                 <div class="form__container__btns">
                     <input class="form__container__btns__btn"type="submit" value="Encriptar">
-                    <input class="form__container__btns__btn form__container__btns__btn--secondary"type="submit" value="Desencriptar">
+                    <input class="form__container__btns__btn btn--secondary"type="submit" value="Desencriptar">
                 </div>
             </div>    
         </form>
         <aside class="return">
             <img class="return__img" src="assets/svg/muneco.svg" alt="">
+            <div class="loader hidden"></div> 
             <div class="return__msn">
                 <h3 class="return__msn__title">Ningún mensaje fue encontrado</h3>
                 <p class="return__msn__text">Ingresa el texto que desees encriptar o desencriptar.</p>
+                <button class="return__msn__btn form__container__btns__btn btn--secondary hidden">Copiar</button>
             </div>
         </aside>
     </main>
+    <script src="./script.js"></script>
 </body>
 </html>
